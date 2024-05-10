@@ -144,6 +144,17 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
   return 180;
 }
 
+bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
+  if (IS_QK_LAYER_TAP(keycode)) {
+    return true;
+  } else if (keycode == MT(MOD_LSFT, KC_ESC)) {
+    return true;
+  }
+
+
+  return false;
+}
+
 void matrix_scan_user(void) {
   achordion_task();
 }
