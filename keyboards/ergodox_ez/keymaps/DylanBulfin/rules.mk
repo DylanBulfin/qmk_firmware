@@ -8,3 +8,4 @@ SPACE_CADET_ENABLE = no
 RGBLIGHT_ENABLE = no
 LTO_ENABLE = yes
 SRC += features/achordion.c
+SRC += common.c
