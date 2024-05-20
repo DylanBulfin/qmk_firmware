@@ -29,8 +29,7 @@ __attribute__((weak)) const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRI
     {{0, 0}, {1, 0}, {2, 0}, {3, 0}, {4, 0}, {5, 0}},
     {{0, 1}, {1, 1}, {2, 1}, {3, 1}, {4, 1}, {5, 1}},
     {{0, 2}, {1, 2}, {2, 2}, {3, 2}, {4, 2}, {5, 2}},
-    {{0, 3}, {1, 3}, {2, 3}, {3, 3}, {4, 3}, {5, 3}}
-};
+    {{0, 3}, {1, 3}, {2, 3}, {3, 3}, {4, 3}, {5, 3}}};
 #endif
 
 #ifdef OLED_ENABLE
@@ -46,22 +45,16 @@ static void oled_render_layer_state(void) {
     oled_write_P(PSTR("Layer: "), false);
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_ln_P(PSTR("Base"), false);
+            oled_write_ln_P(PSTR("Default"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Navigation"), false);
+            oled_write_ln_P(PSTR("Lower"), false);
             break;
         case 2:
-            oled_write_ln_P(PSTR("Numbers"), false);
+            oled_write_ln_P(PSTR("Raise"), false);
             break;
         case 3:
-            oled_write_ln_P(PSTR("Symbols"), false);
-            break;
-        case 4:
-            oled_write_ln_P(PSTR("Function"), false);
-            break;
-        case 5:
-            oled_write_ln_P(PSTR("QWERTY"), false);
+            oled_write_ln_P(PSTR("Adjust"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
