@@ -17,8 +17,6 @@ uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record) {
         case MT(MOD_LSFT, KC_N):
         case MT(MOD_LCTL, KC_E):
         case MT(MOD_LGUI, KC_I):
-        case LT(2, KC_BSPC):
-        case LT(4, KC_TAB):
             return 150;
         default:
             return 0;
