@@ -31,6 +31,14 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     return 200;
 }
 
+bool get_retro_tapping(uint16_t keycode, keyrecord_t *record) {
+    if (IS_QK_LAYER_TAP(keycode)) {
+        return false;
+    }
+
+    return true;
+}
+
 bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     if (IS_QK_LAYER_TAP(keycode)) {
         return true;
