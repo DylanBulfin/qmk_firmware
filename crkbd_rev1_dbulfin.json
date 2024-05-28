@@ -51,7 +51,7 @@
       "LT(4,KC_TAB)"
     ],
     [
-      "KC_TAB",
+      "QK_BOOT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -62,7 +62,7 @@
       "KC_PGUP",
       "KC_END",
       "KC_NO",
-      "KC_NO",
+      "QK_BOOT",
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
@@ -86,7 +86,7 @@
       "LCTL(KC_HOME)",
       "KC_NO",
       "KC_NO",
-      "QK_BOOT",
+      "KC_NO",
       "KC_NO",
       "KC_BSPC",
       "KC_ENT",
@@ -95,7 +95,7 @@
       "KC_NO"
     ],
     [
-      "KC_TAB",
+      "QK_BOOT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -106,7 +106,7 @@
       "KC_8",
       "KC_9",
       "KC_RBRC",
-      "KC_NO",
+      "QK_BOOT",
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
@@ -139,7 +139,7 @@
       "KC_NO"
     ],
     [
-      "KC_TAB",
+      "QK_BOOT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -150,7 +150,7 @@
       "KC_ASTR",
       "KC_LPRN",
       "KC_RCBR",
-      "KC_NO",
+      "QK_BOOT",
       "KC_LCTL",
       "KC_LALT",
       "KC_LGUI",
@@ -183,7 +183,7 @@
       "KC_NO"
     ],
     [
-      "KC_TAB",
+      "QK_BOOT",
       "KC_F12",
       "KC_F7",
       "KC_F8",
@@ -194,7 +194,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
+      "QK_BOOT",
       "KC_LCTL",
       "KC_F11",
       "KC_F4",
@@ -227,6 +227,7 @@
       "KC_NO"
     ],
     [
+      "QK_BOOT",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -237,8 +238,7 @@
       "KC_NO",
       "KC_NO",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "QK_BOOT",
       "KC_NO",
       "OSM(MOD_LALT)",
       "OSM(MOD_LGUI)",

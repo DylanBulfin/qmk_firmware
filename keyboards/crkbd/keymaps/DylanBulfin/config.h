@@ -23,12 +23,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "common.h"
 
 // #define USE_MATRIX_I2C
+#define RGB_MATRIX_LED_COUNT 54
 
 /* Select hand configuration */
 
 #define MASTER_LEFT
 #define SPLIT_OLED_ENABLE
 #define SPLIT_WPM_ENABLE
+#define SPLIT_LAYER_STATE_ENABLE
+
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
